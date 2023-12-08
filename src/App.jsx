@@ -1,6 +1,6 @@
 function App() {
 	return (
-		<main className="flex flex-col items-center justify-center min-h-screen bg-blue-100 font-karla">
+		<main className="flex flex-col items-center justify-center min-h-screen bg-[#E7EFF6] font-karla">
 			<article className="md:grid md:grid-cols-2">
 				<header className="bg-white md:col-span-2 md:w-[40rem] w-[20rem] py-6 px-6 rounded-t-md">
 					<h1 className="text-[20px] text-primary-cyan font-[600]">
