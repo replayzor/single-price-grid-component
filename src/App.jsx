@@ -16,9 +16,9 @@ function App() {
 					</p>
 				</header>
 				<section className="w-[20rem] md:rounded-bl-md py-6 px-6 bg-primary-cyan bg-opacity-90">
-					<h1 className="pb-4 text-lg font-medium text-white">
+					<h2 className="pb-4 text-lg font-medium text-white">
 						Monthly Subscription
-					</h1>
+					</h2>
 					<p className="text-3xl text-white">
 						$29
 						<span className="pl-2 text-sm text-neutral-lightGray ">
@@ -36,13 +36,16 @@ function App() {
 					</button>
 				</section>
 				<section className="w-[20rem] md:rounded-bl-none rounded-b-md py-4 px-6 bg-primary-cyan bg-opacity-70">
-					<h1 className="mb-4 text-lg text-white md:mt-4">Why Us</h1>
-					<p className="w-[200px] text-sm leading-5 pb-3 text-neutral-lightGray font-thin">
-						Tutorials by industry experts Peer & expert code review Coding
-						exercises <br />
-						Access to our GitHub repos Community forum <br /> Flashcard decks
-						<br /> New videos every week
-					</p>
+					<h2 className="mb-4 text-lg text-white md:mt-4">Why Us</h2>
+					<ul className="w-[200px] text-sm leading-5 pb-3 text-neutral-lightGray font-thin">
+						<li>Tutorials by industry experts</li>
+						<li>Peer & expert code review</li>
+						<li>Coding exercises</li>
+						<li>Access to our GitHub repos</li>
+						<li>Community forum</li>
+						<li>Flashcard decks</li>
+						<li>New videos every week</li>
+					</ul>
 				</section>
 				<footer>
 					<p className="attribution">
